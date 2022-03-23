@@ -1,0 +1,4 @@
+{
+    "baseUrl":"http://training-wheels-qaninja.herokuapp.com/",
+    "chromeWebSecurity": false
+}
