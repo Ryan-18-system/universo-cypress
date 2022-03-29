@@ -8,6 +8,6 @@ const niceIframe = function(){
 it('Deve validar o total de seguidores', function(){
     cy.visit('/nice_iframe')
     niceIframe()
-        .contains('.FollowerCountText','6,438followers')
+        .contains('.UsernameText','qa.ninja')
         .should('be.visible')
 })
